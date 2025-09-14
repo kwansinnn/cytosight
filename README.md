@@ -1,12 +1,22 @@
-# CytoSight
+# CytoSight: AI-Powered ALL Detection
 
 ## Project info
 
-**URL**: 
+CytoSight is a web-based, proof-of-concept computer-aided diagnosis (CAD) system designed to automate the detection of Acute Lymphoblastic Leukaemia (ALL) from blood smear images. This project leverages a state-of-the-art deep learning model to provide rapid and accurate classifications, presented through a modern and intuitive user interface.
 
-## How can I edit this code?
+**URL**: https://github.com/kwansinnn/cytosight.git
 
-There are several ways of editing your application.
+## Key Features
+
+Dual-Model Ensemble: Utilizes two specialized ConvNeXt V2 models—one for single-cell and one for multi-cell images—ensembled for a robust final prediction.
+
+User Authentication: Secure user registration and login handled by Supabase.
+
+Interactive Dashboard: A user-friendly interface for uploading images, viewing analysis results, and managing your profile.
+
+Analysis History & Reporting: Persistently stores analysis results and allows for the generation of custom reports.
+
+Collaboration Tools: A dedicated space for teams to create discussion threads around specific cases.
 
 **Use your preferred IDE**
 
@@ -30,26 +40,24 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
 ## What technologies are used for this project?
 
-This project is built with:
+# Frontend
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Framework: React with TypeScript
+
+Build Tool: Vite
+
+Styling: Tailwind CSS & shadcn/ui
+
+Backend-as-a-Service: Supabase
+
+# Backend (Model Training)
+
+Framework: PyTorch
+
+Language: Python
+
+Environment: Google Colab
+
+Core Model: ConvNeXt V2
