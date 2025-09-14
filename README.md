@@ -42,7 +42,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-# Frontend
+### Frontend
 
 Framework: React with TypeScript
 
@@ -52,7 +52,7 @@ Styling: Tailwind CSS & shadcn/ui
 
 Backend-as-a-Service: Supabase
 
-# Backend (Model Training)
+### Backend (Model Training)
 
 Framework: PyTorch
 
